@@ -23,7 +23,7 @@ REMOTE_DIR="/tmp/team4-$BRANCH_NAME"
 TIMESTAMP=$(date +%s)
 CONTAINER_INFO_FILE="/tmp/container_info_${BRANCH_NAME}_${PR_NUMBER}_${TIMESTAMP}.txt"
 
-# Function to find a random available port in the range 4000-7000
+# This is a Function to find a random available port in the range 4000-7000
 find_random_port() {
     while true; do
         # Generate a random port between 4000 and 7000
